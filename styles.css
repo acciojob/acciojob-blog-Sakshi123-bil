@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+.moving-text-container{
+    width: 100%;
+    overflow: hidden;
+  }
+  .moving-text {
+      animation-name: move-left;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      
+    }
+  
+    @keyframes move-left {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-0%);
+      }
+    }
+
+  .blog-heading{
+      font-size:25Px;
+     
+      font-weight: bold;
+      
+  }
+  .block-img{
+      height: 200px;
+      width:250px;
+  }
+  .blog-description{
+    text-decoration: none;
+    
+  }
